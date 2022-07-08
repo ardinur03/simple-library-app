@@ -1,5 +1,5 @@
 # Aplikasi Sistem Informasi Perpustakaan 
-#### note : Task BootCamp Junior Web Developer VSGA Kominfo
+#### note : Final Task BootCamp Junior Web Developer VSGA Kominfo
 
 ## warning to run apps
 untuk menjalankan aplikasi ini saya menggunakan function base_url di bagian configurasi-umum.php
