@@ -1,0 +1,12 @@
+#  Tuliskan minimal 5 hal yang dapat dipahami dari source code anggota				
+    1. untuk file anggota.php akan memunculkan data anggota
+    2. jika tidak melakukan pencaharian maka program akan menjalankan logic pagination penomoran
+    3. jika kata kunci ada maka cari dengan perintah LIKE dan ORDER BY berdasarkan id_anggota 
+    4. terdapat 2 fiile cetak pdf yang pertama cetak list pdf, yang kedua cetak kartu anggota
+    5. terdapat file logika edit dan hapus
+
+# Tuliskan minimal 5 hal yang sulit dipahami dari source code anggota
+    1. Tidak ada (saya memahami dengan apa yang ada di source code anggota)
+
+
+*** Note : file README.md berisikan penjelasan mengenai aplikasi ***

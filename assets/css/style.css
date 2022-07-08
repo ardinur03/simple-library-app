@@ -1,0 +1,122 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    /* Behind the navbar */
+    padding: 48px 0 0;
+    /* Height of navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar .nav-link {
+    font-weight: 500;
+    color: #333;
+}
+
+.sidebar .nav-item a {
+    padding-left: 35px !important;
+}
+
+.sidebar .nav-item:hover {
+    background-color: #e8e6e6;
+}
+
+.active-nav {
+    background-color: #c2c2c2 !important;
+}
+
+.bg-secondary-custom {
+    background-color: #76521c;
+}
+
+.active-link {
+    background-color: #76521c;
+}
+
+.form-control-disable {
+    cursor: no-drop;
+}
+
+
+/* sata membuat terpisah meskiput properti css nya sama alasannya karena agar 
+* lebih mudah meng kostum perbagian halaman jika ingin membedakan ukurannya 
+*/
+
+#anggota-section {
+    height: 100vh;
+}
+
+#beranda-section {
+    height: 70vh;
+}
+
+#penulis-section {
+    height: 70vh;
+}
+
+#buku-section {
+    height: 70vh;
+}
+
+#penerbit-section {
+    height: 70vh;
+}
+
+#kategori-section {
+    height: 70vh;
+}
+
+#transaksi-section {
+    height: 70vh;
+}
+
+#transaksi-section .table-transaksi thead {
+    font-size: 15px;
+}
+
+#transaksi-section .table-transaksi tbody {
+    font-size: 14px;
+}
+
+#error-not-found {
+    height: 70vh;
+}
+
+.pagination>li>a {
+    background-color: white;
+    color: #76521c;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination>.active>a {
+    color: white;
+    background-color: #76521c !Important;
+    border: solid 1px #76521c !Important;
+}
+
+.pagination>.active>a:hover {
+    background-color: #76521c !Important;
+    border: solid 1px #76521c;
+}
+
+#footer {
+    box-sizing: border-box;
+    background-color: #76521c;
+    padding: 10px 10px;
+    color: #f7f7f7;
+    margin-left: 190px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
